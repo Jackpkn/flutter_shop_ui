@@ -15,6 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
+        outlinedButtonTheme: OutlinedButtonThemeData(style: ButtonStyle(padding: MaterialStateProperty.all<EdgeInsets>(EdgeInsets.zero))),
         scaffoldBackgroundColor: bgColor,
         primarySwatch: Colors.blue,
       ),

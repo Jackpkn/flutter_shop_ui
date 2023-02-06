@@ -103,7 +103,7 @@ class HomeScreen extends StatelessWidget {
                 ),
               );
             }),
-          )
+          ),
         ],
       ),
     );
@@ -119,7 +119,10 @@ OutlinedButton outlinedButton(VoidCallback press, String title, IconData icon) {
       children: [
         Icon(icon),
         Text(title),
+         
       ],
     ),
   );
 }
+
+// 
